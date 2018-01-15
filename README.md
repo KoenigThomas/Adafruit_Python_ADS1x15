@@ -38,6 +38,7 @@ The Gain values determines the maximum positive voltage that can be measured whe
 Example: If the Gain is set to 2/3, the maximum positive voltage that can be measured is 6.144V.  
 *6.144/32768 = 0.0001875 V/level* . Let us call this value LSB size.  
 For different Gain values we will have different maximum measureable positive voltage(Full Scale Range) & its corresponding LSB size as shown in the table.  
+
 | Gain | Full Scale Range | LSB Size |
 | --- | --- | --- |
 | 2/3 | 6.144V | 0001875 = 187.5uV |
