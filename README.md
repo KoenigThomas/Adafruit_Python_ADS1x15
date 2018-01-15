@@ -38,14 +38,14 @@ The Gain values determines the maximum positive voltage that can be measured whe
 Example: If the Gain is set to 2/3, the maximum positive voltage that can be measured is 6.144V.  
 *6.144/32768 = 0.0001875 V/level* . Let us call this value LSB size.  
 For different Gain values we will have different maximum measureable positive voltage(Full Scale Range) & its corresponding LSB size as shown in the table.  
-|Gain  |Full Scale Range  |LSB Size|
-|--|--|--|
-|2/3|6.144V|0001875 = 187.5uV|
-|1|4.096V|0.000125 = 125uV|
-|2|2.048V|0.0000625 = 62.5uV|
-|4|1.024V|0.00003125 = 31.25uV|
-|8|0.512V|0.000015625 = 15.625uV|
-|16|0.256V|0.0000078125 = 7.8216uV|
+| Gain | Full Scale Range | LSB Size |
+| --- | --- | --- |
+| 2/3 | 6.144V | 0001875 = 187.5uV |
+| 1 | 4.096V | 0.000125 = 125uV |
+| 2 | 2.048V | 0.0000625 = 62.5uV |
+| 4 | 1.024V | 0.00003125 = 31.25uV |
+| 8 | 0.512V |0.000015625 = 15.625uV |
+| 16 | 0.256V | 0.0000078125 = 7.8216uV |
 
 From this we can find the value of the Input Analog Voltage for these Gain values.  
 ***Input Analog Voltage =  Raw Value * LSB Size***
